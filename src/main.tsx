@@ -6,7 +6,7 @@ import WebApp from '@twa-dev/sdk'
 import { ConfigProvider } from 'antd';
 
 WebApp.ready();
-WebApp.expand();
+WebApp.requestFullscreen();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
